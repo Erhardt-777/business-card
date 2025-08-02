@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-shadow{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box-radius{
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.avatar:hover{
+    transform: scale(1.1);
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fdf0d5;
+    color: #003049;
+    border-bottom: 10px solid #c1121f;
+}
+
+.info-container:hover{
+    color: #780000;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
